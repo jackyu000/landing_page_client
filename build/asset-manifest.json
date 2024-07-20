@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.376aba9e.css",
+    "main.js": "/static/js/main.b73e1079.js",
+    "static/media/Interview_Logo.png": "/static/media/Interview_Logo.fa979cf32d0bb7d78be8.png",
+    "static/media/Offer_Logo.png": "/static/media/Offer_Logo.609d2ead0d0ce52f24c4.png",
+    "static/media/Phone_Screen_Logo.png": "/static/media/Phone_Screen_Logo.3451a0548e07f8993f0e.png",
+    "static/media/OA_Logo.png": "/static/media/OA_Logo.99053460b11c982c4825.png",
+    "static/media/MacBook Air - 47.svg": "/static/media/MacBook Air - 47.de726ddc00ceb6704dd712b92cf8bbab.svg",
+    "static/media/Logo.svg": "/static/media/Logo.210873fa7c9c9b9ced43c94ee04a22dc.svg",
+    "static/media/Vector 12.svg": "/static/media/Vector 12.05edd97d44c30e4a18084251be30a607.svg",
+    "static/media/Vector 14.svg": "/static/media/Vector 14.e8175583e6c3d22603966acca26f8f48.svg",
+    "static/media/Vector 13.svg": "/static/media/Vector 13.b803156796bb47fce09b84cac98410ed.svg",
+    "index.html": "/index.html",
+    "static/media/Rectangle 2.svg": "/static/media/Rectangle 2.cb375a94dd296860c0a1f5ff427ea0b4.svg",
+    "main.376aba9e.css.map": "/static/css/main.376aba9e.css.map",
+    "main.b73e1079.js.map": "/static/js/main.b73e1079.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.376aba9e.css",
+    "static/js/main.b73e1079.js"
+  ]
+}

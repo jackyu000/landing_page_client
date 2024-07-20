@@ -6,18 +6,6 @@ import Modal from '@mui/material/Modal';
 import axios from "axios";
 
 
-//Gmail login:
-  //Username: interns.fyi24@gmail.com
-  //Password: moneymoves
-
-//Mailchimp Login:
-  // Username: interns.fyi24@gmail.com
-  //Password: Moneymoves2024*
-
-//Mailchimp API:
-  // Api_key: c1f52a9795e47eeaa9d97248d0ead2f1-us13
-  // Audience_ID: 6f7951fb4d
-
 
 const style = {
   position: 'absolute',
@@ -49,7 +37,7 @@ const Email = () => {
     try{
       if (address.email.includes('@')) {
         console.log('Email submitted:', address);
-        await axios.post("https://mailing-list-server-123b2b48a9d1.herokuapp.com/user", address)
+        await axios.post("https://mailing-list-server-123b2b48a9d1.herokuapp.com/", address)
         setOpen(true);
       } else {
         console.log('Invalid email');
