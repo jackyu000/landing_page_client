@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-y: visible; /* Allow vertical scrolling */
+  background-color: #2B2F30; /* Set background color */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app takes at least the full viewport height minus the bottom margin */
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0 auto;
+  padding-bottom: 25vh; /*Add padding at the bottom to ensure content is not cut off */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.background-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1; /* Ensure it covers the full available height */
+  background-color: #2B2F30; /* Fallback background color */
+}
+
+.background-image {
+  position: absolute;
+  bottom: -10vh; /* Use vh for relative positioning */
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1; /* Ensure the background image is behind other elements */
+  opacity: 0.9; /* Adjust the opacity if needed */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
