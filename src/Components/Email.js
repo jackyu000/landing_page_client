@@ -127,7 +127,7 @@ const Email = () => {
     try {
       if (address.email.includes('@')) {
         console.log('Email submitted:', address);
-        await axios.post('https://mailing-list-server-123b2b48a9d1.herokuapp.com/users', address);
+        await axios.post('https://mailing-list-server-123b2b48a9d1.herokuapp.com/post', address);
         setOpen(true);
       } else {
         console.log('Invalid email');
